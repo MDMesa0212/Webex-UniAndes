@@ -4,7 +4,7 @@ function setup() {
   Alpine.store('model', {
     currentPage: 'home', // 'home', 'service'
     currentLanguage: 'english',
-    dialNumber: 'mdmesa@cisco.com',
+    dialNumber: 'cpamo@cisco.com',
     services: [],
 
     init() {
