@@ -5,6 +5,7 @@ function setup() {
     currentPage: 'home', // 'home', 'service'
     currentLanguage: 'english',
     dialNumber: 'cpamo@cisco.com',
+    dialNumber2: 'dtobar@collabmcr.com',
     services: [],
 
     init() {
@@ -14,7 +15,7 @@ function setup() {
       }
       this.services = [
         { url: this.dialNumber, name: 'Llamar' },
-        { url: this.dialNumber, name: 'Apoyo' },
+        { url: this.dialNumber2, name: 'Apoyo' },
         { url: this.dialNumber, name: 'Académico' },
       ];
     },
