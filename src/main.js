@@ -4,7 +4,7 @@ function setup() {
   Alpine.store('model', {
     currentPage: 'home', // 'home', 'service'
     currentLanguage: 'english',
-    dialNumber: '1003',
+    dialNumber: 'tel:1003',
     dialNumber2: 'dtobar@collabmcr.com',
     dialNumber: '1003',
     services: [],
