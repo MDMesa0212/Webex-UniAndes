@@ -4,22 +4,23 @@ function setup() {
   Alpine.store('model', {
     currentPage: 'home', // 'home', 'service'
     currentLanguage: 'english',
-    dialNumber: 'tel:1003',
+    dialNumber: '1003',
     dialNumber2: 'dtobar@collabmcr.com',
     dialNumber3: '1003',
     services: [],
-
+    services2: [],
     init() {
       const params = new URLSearchParams(location.search);
       if (params.has('number')) {
         this.dialNumber = params.get('number');
       }
       this.services = [
-        { url: this.dialNumber, name: 'Llamar' },
         { url: this.dialNumber2, name: 'Apoyo' },
+      ];
+      this.services2 = [
+        { url: this.dialNumber, name: 'Llamar' },
         { url: this.dialNumber3, name: 'Académico' },
       ];
-    },
     get page() {
       return this.currentPage;
     },
