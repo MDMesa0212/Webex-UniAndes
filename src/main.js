@@ -6,7 +6,7 @@ function setup() {
     currentLanguage: 'english',
     dialNumber: 'tel:1003',
     dialNumber2: 'dtobar@collabmcr.com',
-    dialNumber: '1003',
+    dialNumber3: '1003',
     services: [],
 
     init() {
@@ -17,7 +17,7 @@ function setup() {
       this.services = [
         { url: this.dialNumber, name: 'Llamar' },
         { url: this.dialNumber2, name: 'Apoyo' },
-        { tel: this.dialNumber, name: 'Académico' },
+        { url: this.dialNumber3, name: 'Académico' },
       ];
     },
     get page() {
