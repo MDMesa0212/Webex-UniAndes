@@ -4,7 +4,7 @@ function setup() {
   Alpine.store('model', {
     currentPage: 'home', // 'home', 'service'
     currentLanguage: 'english',
-    dialNumber: <a href="tel=1210">Linea Asistencia</a>,
+    dialNumber: '1003',
     dialNumber2: 'dtobar@collabmcr.com',
     dialNumber: <a href="tel=1210">Linea Asistencia</a>,
     services: [],
