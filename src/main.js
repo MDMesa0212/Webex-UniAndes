@@ -6,7 +6,7 @@ function setup() {
     currentLanguage: 'english',
     dialNumber: '1003',
     dialNumber2: 'dtobar@collabmcr.com',
-    dialNumber: <a href="tel=1210">Linea Asistencia</a>,
+    dialNumber: '1003',
     services: [],
 
     init() {
