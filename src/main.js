@@ -15,9 +15,9 @@ function setup() {
         this.dialNumber = params.get('number');
       }
       this.services = [
-        { url: this.dialNumber, name: 'Llamar' },
+        { tel: this.dialNumber, name: 'Llamar' },
         { url: this.dialNumber2, name: 'Apoyo' },
-        { url: this.dialNumber, name: 'Académico' },
+        { tel: this.dialNumber, name: 'Académico' },
       ];
     },
     get page() {
