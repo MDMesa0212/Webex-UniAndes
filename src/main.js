@@ -8,6 +8,7 @@ function setup() {
     dialNumber2: 'dtobar@collabmcr.com',
     dialNumber3: '1003',
     services: [],
+    prueba: [],
 
     init() {
       const params = new URLSearchParams(location.search);
@@ -15,10 +16,13 @@ function setup() {
         this.dialNumber = params.get('number');
       }
       this.services = [
-        { url: this.dialNumber, name: 'Llamar' },
         { url: this.dialNumber2, name: 'Apoyo' },
+      ],
+      this.prueba = [
+        { url: this.dialNumber, name: 'Llamar' },
         { url: this.dialNumber3, name: 'Académico' },
       ];
+    },
     get page() {
       return this.currentPage;
     },
