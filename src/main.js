@@ -19,7 +19,7 @@ function setup() {
         { url: this.dialNumber2, name: 'Apoyo' },
       ],
       this.prueba = [
-        { url: this.dialNumber, name: 'Llama' },
+        { url: this.dialNumber, name: 'Llamar' },
         { url: this.dialNumber3, name: 'Académico' },
       ];
     },
