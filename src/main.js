@@ -6,7 +6,7 @@ function setup() {
     currentLanguage: 'english',
     dialNumber: '1003',
     dialNumber2: 'dtobar@collabmcr.com',
-    dialNumber3: '1003',
+    dialNumber3: 1003,
     services: [],
     prueba: [],
 
