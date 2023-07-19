@@ -94,6 +94,13 @@ h1, h2 {
   align-items: center;
 }
 
+.prueba {
+  margin: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 button {
   background-color: transparent;
   border: 0;
