@@ -116,7 +116,7 @@ button {
   background-size: cover;
 }
 
-.Llamar .avatar { background-image: url('./images/avatar1.png'); }
+.Llamar:1003 .avatar { background-image: url('./images/avatar1.png'); }
 .Apoyo .avatar { background-image: url('./images/avatar2.jpg'); }
 .Académico .avatar { background-image: url('./images/ahauge.png'); }
 
