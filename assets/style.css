@@ -38,6 +38,14 @@ body {
   top: 10%;
 }
 
+
+.ciscologo {
+  position: fixed;
+  width: 14%;
+  left: 1%;
+  top: 3%;
+}
+
 a, button {
   color: inherit;
   font-family: inherit;
