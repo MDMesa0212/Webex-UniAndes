@@ -23,12 +23,11 @@ body {
   justify-content: center;
   align-items: center;
   font-family: CiscoSansThin, arial;
-  background-image: url('./images/ciscologo.png');
-  background-position: 5% 10%;
+  background-image: url('./images/UniandesFondo2.png');
   background-repeat: no-repeat;
-  background-size: 120px auto;
-  background-color: #006870;
-  color: white;
+  background-size: 100% auto;
+  /* background: linear-gradient(70deg, #00ccff, #e1d602); */
+  color: rgb(2, 44, 56);
   font-size: 36px;
 }
 
@@ -116,7 +115,7 @@ button {
   background-size: cover;
 }
 
-.Llamar:1003 .avatar { background-image: url('./images/avatar1.png'); }
+.Llamar .avatar { background-image: url('./images/avatar1.png'); }
 .Apoyo .avatar { background-image: url('./images/avatar2.jpg'); }
 .Académico .avatar { background-image: url('./images/ahauge.png'); }
 
