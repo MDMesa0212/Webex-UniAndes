@@ -44,7 +44,13 @@
         </a>
       </template>
       <template x-for="service in prueba">
-        <a class="service" x-bind:href="'tel:1003'" :class="service.name">
+        <a class="service" x-bind:href="'tel:'+ service.url" :class="service.name">
+          <div class="avatar"></div>
+          <label x-text="service.name"></label>
+        </a>
+      </template>
+      <template x-for="service in services_2">
+        <a class="service" x-bind:href="'sip:'+ service.url" :class="service.name">
           <div class="avatar"></div>
           <label x-text="service.name"></label>
         </a>
