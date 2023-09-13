@@ -6,8 +6,9 @@ function setup() {
     currentLanguage: 'english',
     dialNumber: '1003',
     dialNumber2: 'dtobar@collabmcr.com',
-    dialNumber3: 1003,
+    dialNumber3: 'dtobar@cisco.com',
     services: [],
+    services_2: [],
     prueba: [],
 
     init() {
@@ -20,6 +21,8 @@ function setup() {
       ],
       this.prueba = [
         { url: this.dialNumber, name: 'Llamar' },
+      ],
+      this.services_2 = [
         { url: this.dialNumber3, name: 'Académico' },
       ];
     },
